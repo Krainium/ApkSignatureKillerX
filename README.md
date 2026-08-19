@@ -334,9 +334,7 @@ Server-side decoded verdict from a real S24 Ultra
 This result does not apply to bind mount mode, where the original cert is
 intact on disk.
 
-![s24 integrity](docs/testlab-s24ultra-integrity.png)
-
-![attestation](docs/attestation.png)
+![integrity](docs/integrity-combined.png)
 
 ### Device Fingerprint Spoof
 
