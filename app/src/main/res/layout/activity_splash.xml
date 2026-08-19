@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Splash: "By Krainium" rendered as extruded 3D text on a dark backdrop.
+     The depth is faked by stacking progressively offset, progressively darker
+     copies of the same text behind a bright front face. -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_bg">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <!-- stacked 3D title -->
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/by_krainium" android:textSize="46sp" android:textStyle="bold"
+                android:fontFamily="monospace" android:letterSpacing="0.06"
+                android:textColor="#FF000000" android:translationX="6dp" android:translationY="6dp" />
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/by_krainium" android:textSize="46sp" android:textStyle="bold"
+                android:fontFamily="monospace" android:letterSpacing="0.06"
+                android:textColor="#FF0E0F13" android:translationX="5dp" android:translationY="5dp" />
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/by_krainium" android:textSize="46sp" android:textStyle="bold"
+                android:fontFamily="monospace" android:letterSpacing="0.06"
+                android:textColor="#FF16181F" android:translationX="4dp" android:translationY="4dp" />
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/by_krainium" android:textSize="46sp" android:textStyle="bold"
+                android:fontFamily="monospace" android:letterSpacing="0.06"
+                android:textColor="#FF23262F" android:translationX="3dp" android:translationY="3dp" />
+
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/by_krainium" android:textSize="46sp" android:textStyle="bold"
+                android:fontFamily="monospace" android:letterSpacing="0.06"
+                android:textColor="#FF33373F" android:translationX="2dp" android:translationY="2dp" />
+
+            <!-- front face -->
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="@string/by_krainium" android:textSize="46sp" android:textStyle="bold"
+                android:fontFamily="monospace" android:letterSpacing="0.06"
+                android:textColor="#FFEAF2FF"
+                android:shadowColor="#FF000000" android:shadowDx="0" android:shadowDy="2"
+                android:shadowRadius="3" />
+        </FrameLayout>
+
+        <View android:layout_width="120dp" android:layout_height="2dp"
+            android:layout_marginTop="18dp"
+            android:background="#33EAF2FF" />
+
+        <TextView
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="@string/app_name"
+            android:textColor="#8A9299" android:textSize="13sp"
+            android:fontFamily="monospace" android:letterSpacing="0.22" />
+    </LinearLayout>
+</FrameLayout>
