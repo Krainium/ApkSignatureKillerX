@@ -1,0 +1,25 @@
+{
+  "tokenPayloadExternal": {
+    "requestDetails": {
+      "requestPackageName": "com.killerx.demo",
+      "timestampMillis": "1786981149861",
+      "nonce": "XHKH-SQsZplg3vOalfkJmVbb3p3dofalpdvPspysxoM="
+    },
+    "appIntegrity": {
+      "appRecognitionVerdict": "UNRECOGNIZED_VERSION",
+      "packageName": "com.killerx.demo",
+      "certificateSha256Digest": [
+        "STebgLiBhuHZXJOGesCOqaQu9dt4GM_qyNeKLKjZrNE"
+      ],
+      "versionCode": "1"
+    },
+    "deviceIntegrity": {
+      "deviceRecognitionVerdict": [
+        "MEETS_DEVICE_INTEGRITY"
+      ]
+    },
+    "accountDetails": {
+      "appLicensingVerdict": "UNEVALUATED"
+    }
+  }
+}
